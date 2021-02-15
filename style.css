@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+/*
+name
+email-email error if not formatted properly
+number-error if not numbers
+*/
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body {
+	font-size: 17px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	min-height: 80vh;
+    height: 100%;
+}
+.background {
+	min-height: 1000px;
+	width: 100%;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: url(images/back1.png);
+	overflow: hidden;
+}
+#title {
+    border-bottom: 3px solid #FFC0CB;
+    padding-left: 10px;
+    background-image: url(images/first.jpg);
+	background-position: 100%;
+	padding-top: 10px;
+}
+.container {
+	min-height: 400px;
+	margin:100px;
+	padding: 0px;
+	background-color: white;
+	background-image: url(images/top.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	border: 5px solid #FFB6C1;
+	overflow: hidden;
+}
+#survey-form {
+}
+.survey-form1 {
+	width: 550px;
+	height: 320px;
+    float: left;
+    padding: 10px;
+}
+.survey-form2 {
+	width: auto;
+	height: 320px;
+    float: left;   
+    padding: 10px;
+}
+.survey-form3 {
+	width: 100%;
+    float: left;
+    padding: 0 10px 10px 10px;
+    height: 100%;
+}
+#desc {
+	border: 2px solid #FF69B4;
+	height: 100px;
+	width: 1080px;
+}
+#me {
+	color: #FF1493;
+	float: right;
+	padding-right: 20px;
+	margin: 0px;
+}
+#name {
+	border: 2px solid #FF69B4;
+}
+#email {
+	border: 2px solid #FF69B4;
+}
+#number {
+	border: 2px solid #FF69B4;
+}
+#box {
+	border: 2px solid #FF69B4;
+}
+#redemption {
+	height: 50px;
+	width: 530px;
+	align-items: center;
+	border: 3px solid #FF69B4;
+	margin-top: 10px;
+	background-color: #FFC0CB;
+}
+.red {
+	font-size: 20px;
+	font-family: 'Cinzel', serif;
+	text-align: center;
+}
+#field {
+    border: 2px solid #FF69B4;
+}
+#submit {
+	font-family: 'Cinzel', serif;
+	padding: 5px;
+	background-color: #FFC0CB;
+	float: right;
+	border: 3px solid #FF69B4;
+	
+}
+#submitbutton {
+	height: 100%;
+	margin: 10px 40px 10px 0;
+}
+.title1 {
+	font-family: 'Cinzel', serif;
+	font-size: 50px;
+	margin: 10px 10px 10px 0; 
+}
+
